@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    background-image: linear-gradient(180deg, #ffe1aa 0, #ffd4a7 16.67%, #ffc7a2 33.33%, #f2b99d 50%, #e1ac97 66.67%, #d1a092 83.33%, #c2968d 100%);
+    
+}
+
+.Registro-Materias{
+    width: 400px;
+    background:#F28773;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.Registro-Materias h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+   
+}
+
+.controls {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #F28773;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.Registro-Materias .botons{
+
+    width:100%;
+    background: #40e0d0;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin-left: 16px 0;
+    font-size: 16px;
+}

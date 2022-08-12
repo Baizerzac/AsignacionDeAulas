@@ -1,0 +1,80 @@
+*{
+    padding: 0;/*elimina espacios por defecto en gral*/
+    margin: 0;/*elimina espacios por defecto en gral*/
+    text-decoration: none;/*Elimina decoraciones*/
+    list-style: none;/*Elimina esdtilos a las listas (por ejemplo los puntos o subrayados)*/
+    box-sizing: border-box;/* para q los elementos no salgan del contenedor*/
+}
+
+nav{
+    background: #1CB3E5;
+    height: 80px;/* altura*/
+    width:100%; /* ancho*/
+}
+
+.estilo{
+   position:absolute;
+   padding: 20px 50px; 
+}
+
+.logo{
+    height: 40px
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a.active, li a:hover{
+    background:#000090;
+    transition: .5s;
+}
+
+.boton{
+    font-size: 30px;
+    color: #fff;
+    float:right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display:none;
+}
+
+#check{
+    display:none;
+}
+
+section{
+    background: url(/img/fondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    height: calc(100vh - 80px);
+}
+
+@media (max-width: 925px){
+    .estilo{
+        padding-left: 5px;
+     }
+
+}
+
+@media (max-width: 858px){
+
+
+}
